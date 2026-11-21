@@ -1,3 +1,5 @@
+![cover](cover.png)
+
 <div align="center">
 
 # AI Assistant System for ECAD Software
