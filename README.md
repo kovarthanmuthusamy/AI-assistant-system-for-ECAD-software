@@ -1,13 +1,13 @@
 <div align="center">
 
-# PCB CAD LLM Assistant
+# AI Assistant System for ECAD Software
 
 **A multi-agent, multimodal LLM assistant for Signal-Integrity PCB design in eCADSTAR**
 
 *Answers domain questions, runs live CAD simulations from plain English, and reads circuit and
 result images, so that beginners can learn and operate a Signal-Integrity EDA workflow.*
 
-[![CI](https://github.com/kovarthanmuthusamy/pcb-cad-llm-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/kovarthanmuthusamy/pcb-cad-llm-assistant/actions/workflows/ci.yml)
+[![CI](https://github.com/kovarthanmuthusamy/AI-assitant-system-for-ECAD-software/actions/workflows/ci.yml/badge.svg)](https://github.com/kovarthanmuthusamy/AI-assitant-system-for-ECAD-software/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-ReAct%20agent-1C3C3C)
 ![Docker](https://img.shields.io/badge/docker-compose-2496ED?logo=docker&logoColor=white)
@@ -50,7 +50,7 @@ Highlights:
   libraries loaded lazily, 130 unit tests that need no model, GPU or CAD licence, and Ruff, mypy,
   pytest and a Docker build in CI.
 
-> **Context.** Group research project, built with the reasoning and vision-language models available
+> **Context.** Built with the reasoning and vision-language models available
 > in 2023–2024 that were strong at both agentic tool use and image understanding.
 
 ### Contribution and ownership
@@ -244,7 +244,7 @@ project colleague's work, kept unchanged in [`research/vlm/`](research/vlm).
 ## Project structure
 
 ```text
-pcb-cad-llm-assistant/
+AI-assitant-system-for-ECAD-software/
 ├── src/pcb_assistant/
 │   ├── cli.py                  command line and chat loop  (pcb-assistant, python -m pcb_assistant)
 │   ├── agent.py                ReAct agent: tools, memory, system instruction
@@ -320,5 +320,5 @@ metrics and the benchmark needed before claiming end-to-end accuracy.
 licences.
 
 <div align="center">
-<sub>Multi-agent LLM assistant for Signal-Integrity EDA · research prototype</sub>
+<sub>Multi-agent LLM assistant for Signal-Integrity EDA</sub>
 </div>
