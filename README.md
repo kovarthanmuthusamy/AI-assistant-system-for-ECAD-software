@@ -7,7 +7,7 @@
 *Answers domain questions, runs live CAD simulations from plain English, and reads circuit and
 result images, so that beginners can learn and operate a Signal-Integrity EDA workflow.*
 
-[![CI](https://github.com/kovarthanmuthusamy/AI-assitant-system-for-ECAD-software/actions/workflows/ci.yml/badge.svg)](https://github.com/kovarthanmuthusamy/AI-assitant-system-for-ECAD-software/actions/workflows/ci.yml)
+[![CI](https://github.com/kovarthanmuthusamy/AI-assistant-system-for-ECAD-software/actions/workflows/ci.yml/badge.svg)](https://github.com/kovarthanmuthusamy/AI-assistant-system-for-ECAD-software/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-ReAct%20agent-1C3C3C)
 ![Docker](https://img.shields.io/badge/docker-compose-2496ED?logo=docker&logoColor=white)
@@ -244,7 +244,7 @@ project colleague's work, kept unchanged in [`research/vlm/`](research/vlm).
 ## Project structure
 
 ```text
-AI-assitant-system-for-ECAD-software/
+AI-assistant-system-for-ECAD-software/
 ├── src/pcb_assistant/
 │   ├── cli.py                  command line and chat loop  (pcb-assistant, python -m pcb_assistant)
 │   ├── agent.py                ReAct agent: tools, memory, system instruction
